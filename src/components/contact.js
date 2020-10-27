@@ -1,13 +1,19 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const Contact = () => {
   return (
-    <div className="container contact">
-      <div className="caps">Serviços</div>
-      <div className="title">O que oferecemos para seu negócio</div>
+    <div className="contact">
+      <div class="container">
+        <div className="caps">Contato</div>
+        <div className="title">Quer falar com a gente?</div>
+        <p>
+          Possui um projeto?
+        </p>
+        <Link className="a-dark" to="/">Entre em contato conosco!</Link>
+      </div>
     </div>
   )
 }
 
 export default Contact;
-    

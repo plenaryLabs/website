@@ -21,7 +21,7 @@ const Cursor = () => {
   window.onload = showCursor();
 
   return (
-    <div id="cursor"></div>
+    <div id="cursor" className="cursor"></div>
   )
 }
 
