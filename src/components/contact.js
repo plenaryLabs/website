@@ -10,7 +10,7 @@ const Contact = () => {
         <p>
           Possui um projeto?
         </p>
-        <Link className="a-dark" to="/">Entre em contato conosco!</Link>
+        <Link className="a-dark" to="/contato">Entre em contato conosco!</Link>
       </div>
     </div>
   )

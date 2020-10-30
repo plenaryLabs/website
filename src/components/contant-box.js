@@ -11,10 +11,17 @@ const Contact = () => {
           <div className="box">
             <form>
               <div className="top">
-                <input placeholder="Qual é o seu nome?" />
-                <input placeholder="Defina seu melhor email!" />
+                <div className="box-container">
+                  <p>Seu nome</p>
+                  <input placeholder="Qual é o seu nome?" />
+                </div>
+                <div className="box-container">
+                  <p>Seu e-mail</p>
+                  <input placeholder="Defina seu melhor email!" />
+                </div>
               </div>
-              <div className="bottom" align="center">
+              <div className="bottom">
+                <p>Mensagem</p>
                 <textarea placeholder="O que gostária de falar?">
                 </textarea>
               </div>
